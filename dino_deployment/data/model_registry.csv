@@ -1,0 +1,14 @@
+model,family,model_type,patch_size,parameters_m,license,weight_source,notes
+DINO v1 ViT-S/16,DINO v1,backbone,16,21,Apache-2.0,Meta official repository,Small historical baseline with official ONNX availability
+DINO v1 ViT-B/16,DINO v1,backbone,16,85,Apache-2.0,Meta official repository,Larger v1 baseline
+DINOv2 ViT-S/14,DINOv2,backbone,14,22,Apache-2.0,Meta official repository,Compact general-purpose representation model
+DINOv2 ViT-B/14 reg,DINOv2,backbone,14,86,Apache-2.0,Meta official repository,Register-token variant for dense features
+DINOv2 ViT-L/14 reg,DINOv2,backbone,14,304,Apache-2.0,Meta official repository,High-capacity engineering candidate
+DINOv2 ViT-g/14 reg,DINOv2,backbone,14,1100,Apache-2.0,Meta official repository,Large server-side model
+DINOv3 ViT-S/16,DINOv3,backbone,16,21,DINOv3 License,Meta official repository,Compact v3 model
+DINOv3 ViT-L/16,DINOv3,backbone,16,300,DINOv3 License,Meta official repository,Dense-feature oriented server candidate
+DINOv3 ViT-H+/16,DINOv3,backbone,16,840,DINOv3 License,Meta official repository,High-capacity server model
+DINOv3 ViT-7B/16,DINOv3,backbone,16,6716,DINOv3 License,Meta official repository,Research-scale teacher model
+YOLO11n,YOLO11,detector,32,2.6,AGPL-3.0 or Enterprise,Ultralytics official documentation,Native detector used only as a system reference
+YOLO11m,YOLO11,detector,32,20.1,AGPL-3.0 or Enterprise,Ultralytics official documentation,Medium native detector reference
+YOLO11x,YOLO11,detector,32,56.9,AGPL-3.0 or Enterprise,Ultralytics official documentation,Large native detector reference
