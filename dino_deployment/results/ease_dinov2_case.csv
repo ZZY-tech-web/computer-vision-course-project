@@ -1,0 +1,13 @@
+item,value,unit,basis
+model,DINOv2 ViT-L/14,,EASE-main top-level scripts
+input_side,476,pixel,script default
+patch_size,14,pixel,DINOv2 model definition
+patch_grid_side,34,patch,476 divided by 14
+patch_tokens,1156,token,34 squared
+feature_channels,1024,channel,ViT-L dimension table
+dense_feature_elements,1183744,element,1156 multiplied by 1024
+local_feature_float32,4.515625,MiB,elements multiplied by 4 bytes
+global_prototype_float32,0.00390625,MiB,1024 multiplied by 4 bytes
+images_per_category,32,image,script default
+local_features_per_category_float32,144.5,MiB,32 multiplied by single-image local feature
+retrieval_metric,cosine_similarity,,L2 normalization plus inner product

@@ -1,0 +1,7 @@
+﻿model,estimated_runtime_memory_gb,license,suggested_fit
+DINO v1 ViT-S/16,0.13,Apache-2.0,适合作为轻量或历史对照
+DINOv2 ViT-S/14,0.13,Apache-2.0,许可宽松且工具链成熟的通用特征基线
+DINO v1 ViT-B/16,0.51,Apache-2.0,适合作为轻量或历史对照
+DINOv2 ViT-B/14 reg,0.52,Apache-2.0,许可宽松且工具链成熟的通用特征基线
+DINOv2 ViT-L/14 reg,1.82,Apache-2.0,许可宽松且工具链成熟的通用特征基线
+DINOv2 ViT-g/14 reg,6.60,Apache-2.0,许可宽松且工具链成熟的通用特征基线

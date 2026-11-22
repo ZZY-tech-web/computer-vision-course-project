@@ -1,0 +1,7 @@
+﻿patch_size,image_size,patch_grid,patch_tokens,attention_matrix_elements,relative_attention_vs_224,relative_attention_vs_vit16_224
+14,224,16x16,256,65536,1.0,1.7
+14,448,32x32,1024,1048576,16.0,27.3
+14,896,64x64,4096,16777216,256.0,436.7
+16,224,14x14,196,38416,1.0,1.0
+16,448,28x28,784,614656,16.0,16.0
+16,896,56x56,3136,9834496,256.0,256.0
